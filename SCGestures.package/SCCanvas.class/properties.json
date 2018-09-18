@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"surface",
-		"center",
 		"frame",
 		"lastGesture",
 		"currentGesture"

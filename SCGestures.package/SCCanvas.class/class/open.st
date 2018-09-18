@@ -1,3 +1,3 @@
 instance creation
 open
- self class new openInWindow
+ SCCanvas new openInWindow
