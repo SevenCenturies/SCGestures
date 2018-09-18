@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "SCGestures",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"surface",
+		"center",
+		"frame",
+		"lastGesture",
+		"currentGesture"
+	],
+	"name" : "SCCanvas",
+	"type" : "normal"
+}
