@@ -1,4 +1,4 @@
 drawing
-drawOn: arg1
+drawOn: aCanvas
 	self render.
-	surface displayOnMorphicCanvas: arg1 at: bounds origin
+	surface displayOnMorphicCanvas: aCanvas at: bounds origin

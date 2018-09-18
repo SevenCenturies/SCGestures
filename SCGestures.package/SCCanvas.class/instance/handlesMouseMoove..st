@@ -1,3 +1,3 @@
 event handling
-handlesMouseMoove: arg1
+handlesMouseMoove: aMouseEvent
 	^ false

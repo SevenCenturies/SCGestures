@@ -1,3 +1,3 @@
 event handling
-handlesMouseOver: arg1
+handlesMouseOver: aMouseEvent
 	^ true

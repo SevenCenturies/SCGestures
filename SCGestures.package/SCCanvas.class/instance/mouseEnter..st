@@ -1,6 +1,6 @@
 event handling
-mouseEnter: arg1
+mouseEnter: aMouseEvent
 	Transcript
-		show: arg1;
+		show: aMouseEvent;
 		cr.
 	self changed

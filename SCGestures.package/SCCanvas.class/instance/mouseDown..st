@@ -1,21 +1,16 @@
 event handling
-mouseDown: arg1
-	arg1 redButtonPressed
-		ifTrue: [ | tmp2 |
-			tmp2 := Transcript.
-			tmp2
+mouseDown: aMouseEvent
+	aMouseEvent redButtonPressed
+		ifTrue: [
+			Transcript 
 				show: 'Red button';
 				cr ].
-	arg1 yellowButtonPressed
-		ifTrue: [ | tmp4 |
-			tmp4 := Transcript.
-			tmp4
+	aMouseEvent yellowButtonPressed
+		ifTrue: [ Transcript
 				show: 'Yellow button';
 				cr ].
-	arg1 blueButtonPressed
-		ifTrue: [ | tmp6 |
-			tmp6 := Transcript.
-			tmp6
+	aMouseEvent blueButtonPressed
+		ifTrue: [ Transcript
 				show: 'Blue button';
 				cr ].
 	self changed
