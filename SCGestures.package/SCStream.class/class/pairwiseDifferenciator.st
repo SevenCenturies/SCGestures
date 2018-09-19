@@ -1,3 +1,3 @@
 pairwise-streaming
 pairwiseDifferenciator
-	^ self pairwiseCollector: self pairwiseDifference.
+	^ self pairwiseMapper: self pairwiseDifference.

@@ -1,5 +1,5 @@
 pairwise-streaming
-pairwiseCollector: pairToValueCollector
+pairwiseMapper: pairToValueFunction
 	^ [ :sourceCollection :targetCollection | 
 	| sourceCollectionSize |
 	sourceCollectionSize := sourceCollection size.
@@ -10,4 +10,4 @@ pairwiseCollector: pairToValueCollector
 					| nextElement | 
 					index < sourceCollectionSize
 						ifTrue: [ nextElement := sourceCollection at: index + 1.
-							targetCollection add: (pairToValueCollector value: element value: nextElement) ] ] ] ]
+							targetCollection add: (pairToValueFunction value: element value: nextElement) ] ] ] ]

@@ -2,7 +2,7 @@ as yet unclassified
 calculateAngles: gesture
 	| angles grapher data collector |
 	angles := OrderedCollection new.
-	collector := SCStream pairwiseCollector: [ :point :nextPoint | 
+	collector := SCStream pairwiseMapper: [ :point :nextPoint | 
 		| angle |
 		  angle := (180 * (nextPoint - point) angle / Float pi roundTo: 15).
 		angle < 0 ifTrue: [
