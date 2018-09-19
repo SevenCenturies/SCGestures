@@ -1,3 +1,3 @@
 tests
-testSingleElementCollectsToEmpty
+testSingleElementMapsToEmpty
 	self assert: (SCStream differentiate: self singleElementCollection) isEmpty.

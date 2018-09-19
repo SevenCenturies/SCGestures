@@ -1,6 +1,6 @@
 tests
-constantElementsCollection
+twoIncreasingElementsCollection
 	| collection |
 	collection := OrderedCollection new.
-	collection add: 1; add: 1.
+	collection add: 1; add: 2.
 	^ collection
