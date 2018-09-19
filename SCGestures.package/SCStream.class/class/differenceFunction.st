@@ -1,3 +1,3 @@
 pairwise-streaming
-pairwiseDifference
+differenceFunction
 	^ [ :a :b | b - a ]

@@ -1,5 +1,5 @@
 pairwise-streaming
-pairwiseMapper: pairToValueFunction
+pairwiseMapBlockForFunction: pairToValueFunction
 	^ [ :sourceCollection :targetCollection | 
 	| sourceCollectionSize |
 	sourceCollectionSize := sourceCollection size.
