@@ -1,4 +1,4 @@
-as yet unclassified
+collections-streaming
 pairCollector: pairToValueCollector
 	^ [ :sourceCollection :targetCollection | 
 	| sourceCollectionSize |
