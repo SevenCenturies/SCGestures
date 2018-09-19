@@ -8,5 +8,5 @@ mouseUp: arg1
 		cr.
 	self
 		shiftGesture;
-		calculateAngles;
+		calculateAngles: lastGesture;
 		changed

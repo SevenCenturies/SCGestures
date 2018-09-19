@@ -1,5 +1,5 @@
-collections-streaming
-pairCollector: pairToValueCollector
+pairwise-streaming
+pairwiseCollector: pairToValueCollector
 	^ [ :sourceCollection :targetCollection | 
 	| sourceCollectionSize |
 	sourceCollectionSize := sourceCollection size.

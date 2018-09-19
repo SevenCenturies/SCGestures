@@ -1,7 +1,7 @@
 tests
 testSingleElementCollectsToEmpty
 	| collector sourceCollection targetCollection |
-	collector := SCStream pairCollector: SCStream left.
+	collector := SCStream pairwiseDifferenciator.
 	sourceCollection := self emptyCollection.
 	targetCollection := self emptyCollection.
 	sourceCollection add: 1.
