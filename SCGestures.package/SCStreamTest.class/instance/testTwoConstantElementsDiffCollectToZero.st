@@ -1,7 +1,7 @@
 tests
 testTwoConstantElementsDiffCollectToZero
 	| collector sourceCollection targetCollection |
-	collector := SCStream difference.
+	collector := SCStream pairwiseDifferenciator.
 	sourceCollection := self emptyCollection.
 	targetCollection := self emptyCollection.
 	sourceCollection add: 1; add: 1.

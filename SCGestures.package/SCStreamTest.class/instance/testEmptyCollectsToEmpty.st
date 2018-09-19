@@ -1,7 +1,7 @@
 tests
 testEmptyCollectsToEmpty
 	| collector sourceCollection targetCollection |
-	collector := SCStream pairCollector: SCStream left.
+	collector := SCStream pairwiseDifferenciator.
 	sourceCollection := self emptyCollection.
 	targetCollection := self emptyCollection.
 	collector value: sourceCollection value: targetCollection.
